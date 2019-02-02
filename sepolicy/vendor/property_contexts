@@ -1,3 +1,6 @@
+# Dirac
+persist.audio.dirac.                u:object_r:dirac_prop:s0
+
 # Camera
 camera.                             u:object_r:camera_prop:s0
 cameradaemon.SaveMemAtBoot          u:object_r:camera_prop:s0
