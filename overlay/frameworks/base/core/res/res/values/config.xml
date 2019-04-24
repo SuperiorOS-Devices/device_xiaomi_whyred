@@ -582,4 +582,8 @@
     <!-- Whether or not to use Night Light -->
     <bool name="config_nightDisplayAvailable">false</bool>
 
+    <!-- Whether device needs to wait for Qualcomm MPCTL service to start
+         before setting power profiles on boot. -->
+    <bool name="config_waitForMpctlOnBoot">true</bool>
+
 </resources>
