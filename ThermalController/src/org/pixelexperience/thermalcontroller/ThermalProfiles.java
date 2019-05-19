@@ -42,6 +42,7 @@ public class ThermalProfiles {
             case "com.google.android.dialer":
                 return MODE_DIALER;
             case "com.antutu.ABenchMark":
+            case "com.antutu.benchmark.full":
             case "com.futuremark.dmandroid.application":
             case "com.primatelabs.geekbench":
                 return MODE_PERFORMANCE;
@@ -64,6 +65,7 @@ public class ThermalProfiles {
             case "org.codeaurora.snapcam":
             case "com.android.camera":
             case "com.android.gallery3d":
+            case "com.google.android.apps.camera":
             case "com.google.android.apps.photos":
             case "com.google.android.GoogleCamera":
                 return MODE_CAMERA;
