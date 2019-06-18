@@ -578,4 +578,8 @@
 
     <!-- Should we filter any display modes which are unampped? -->
     <bool name="config_filterDisplayModes">true</bool>
+
+    <!-- Whether or not to use Night Light -->
+    <bool name="config_nightDisplayAvailable">false</bool>
+
 </resources>
