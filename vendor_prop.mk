@@ -71,6 +71,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.hw.binder.size_kbyte=1024
 
+# Camera
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.is_type=5 \
+    persist.camera.googfd.enable=1 \
+    persist.camera.logical.default=1 \
+    persist.camera.gzoom.at=0
+
 #Density
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=440
