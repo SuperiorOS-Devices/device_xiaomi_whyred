@@ -1,0 +1,16 @@
+[
+ {
+   "repository": "vendor_xiaomi_whyred",
+   "target_path": "vendor/xiaomi/whyred"
+ },
+ {
+   "repository": "kernel_xiaomi_whyred",
+   "target_path": "kernel/xiaomi/whyred"
+ },
+ {
+    "repository": "Sweeto143/vendor_xiaomi_MiuiCamera",
+    "target_path": "vendor/xiaomi/MiuiCamera",
+    "branch": "pie",
+    "remote": "github"
+  }
+]
