@@ -373,3 +373,19 @@ on property:persist.sys.display_gamma=2
 # FPS Info
   chown system graphics /sys/class/graphics/fb0/measured_fps
   chmod 0666 /sys/class/graphics/fb0/measured_fps
+
+# for reduce power consumption.
+on property:sys.boot_completed=1
+    write /sys/class/gpio/export 12
+    write /sys/class/gpio/gpio12/direction out
+    write /sys/class/gpio/gpio12/value 0
+    write /sys/class/gpio/unexport 12
+
+# Smart Charging
+#Huaqin add for control charge by zhangjingzhi at 20180129 start
+on boot 
+chown system system /sys/class/power_supply/battery/charging_enabled 
+chmod 0666 /sys/class/power_supply/battery/charging_enabled 
+chown system system /sys/class/power_supply/battery/input_suspend 
+chmod 0666 /sys/class/power_supply/battery/input_suspend
+#Huaqin add for control charge by zhangjingzhi at 20180129 end
