@@ -65,5 +65,10 @@
         <item>-105</item>
         <item>-44</item>
     </integer-array>
+
+    <!-- Max visible notification icons -->
+    <integer name="config_maxVisibleNotificationIcons">8</integer>
+    <integer name="config_maxVisibleNotificationIconsWhenDark">8</integer>
+
 </resources>
 
