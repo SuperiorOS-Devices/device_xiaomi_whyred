@@ -267,7 +267,6 @@ Return<void> Power::powerHintAsync_1_3(PowerHint_1_3 hint, int32_t data) {
     }
 
     if (hint == PowerHint_1_3::EXPENSIVE_RENDERING) {
-        ATRACE_INT(android::hardware::power::V1_3::toString(hint).c_str(), data);
         if (mSustainedPerfModeOn) {
             ALOGV("%s: ignoring due to other active perf hints", __func__);
         } else {
