@@ -15,6 +15,9 @@ allow hal_power_default sysfs_msm_subsys:dir search;
 allow hal_power_default sysfs_msm_subsys:file rw_file_perms;
 allow hal_power_default sysfs_devices_system_cpu:file rw_file_perms;
 allow hal_power_default device_latency:chr_file rw_file_perms;
+allow hal_power_default sysfs:file { read open getattr };
+allow hal_power_default debugfs:file { read open getattr };
+
 # To get/set powerhal state property
 set_prop(hal_power_default, power_prop)
 
