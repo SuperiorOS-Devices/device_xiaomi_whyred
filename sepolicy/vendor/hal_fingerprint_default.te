@@ -37,3 +37,4 @@ allow hal_fingerprint_default sdcardfs:dir { search };
 allow hal_fingerprint_default media_rw_data_file:dir { search read open };
 
 set_prop(hal_fingerprint_default, vendor_fp_prop);
+allow hal_fingerprint_default default_android_hwservice:hwservice_manager { add };
