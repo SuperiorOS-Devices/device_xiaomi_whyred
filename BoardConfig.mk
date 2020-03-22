@@ -207,6 +207,9 @@ ifneq ($(TARGET_BUILD_VARIANT),user)
 SELINUX_IGNORE_NEVERALLOWS := true
 endif
 
+# SurfaceFlinger
+TARGET_USE_QCOM_SURFACEFLINGER := true
+
 # Treble
 BOARD_VNDK_RUNTIME_DISABLE := true
 BOARD_VNDK_VERSION := current
