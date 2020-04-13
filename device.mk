@@ -241,6 +241,10 @@ endif
 PRODUCT_PACKAGES += \
     fs_config_files
 
+# Gcam
+PRODUCT_PACKAGES += \
+    GoogleCameraGo
+
 # Gatekeeper HAL
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
