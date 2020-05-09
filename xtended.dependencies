@@ -1,0 +1,21 @@
+[
+  {
+    "remote"      : "github",
+    "repository"  : "Xtended-Devices/vendor_xiaomi_whyred",
+    "target_path" : "vendor/xiaomi/whyred",
+    "branch"      : "xq"
+  },  
+  {
+    "remote"      : "github",
+    "repository"  : "Xtended-Devices/kernel_xiaomi_whyred",
+    "target_path" : "kernel/xiaomi/whyred",
+    "branch"      : "xq"
+  },
+  {
+    "remote"      : "github",
+    "repository"  : "Xtended-Devices/vendor_MiuiCamera",
+    "target_path" : "vendor/MiuiCamera",
+    "branch"      : "xq-whyred"
+  }
+]
+     
