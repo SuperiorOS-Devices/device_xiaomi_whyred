@@ -228,4 +228,4 @@ persist.vendor.radio.data_con_rprt=1
 persist.vendor.radio.ignore_dom_time=15
 
 # Xtended Official
-ro.xtended.display.version=XQ-OFFICIAL-Release-v7.0
+ro.xtended.display.version=XQ-OFFICIAL-Release-v9.0
