@@ -1042,6 +1042,12 @@
         <item>10</item>
     </integer-array>
 
+    <!-- Enable live display -->
+    <bool name="config_liveDisplayAvailable">true</bool>
+
+    <!-- Use live display for temperature control-->
+    <bool name="config_nightDisplayAvailable">false</bool>
+
     <!-- Vibrator pattern for feedback about touching a virtual key -->
     <integer-array name="config_virtualKeyVibePattern">
         <item>0</item>
