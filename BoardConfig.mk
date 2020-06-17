@@ -129,8 +129,10 @@ TARGET_TAP_TO_WAKE_NODE := "/proc/tp_gesture"
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
 # FM
-BOARD_HAVE_QCOM_FM := true
-BOARD_HAS_QCA_FM_SOC := "cherokee"
+ifeq ($(BOARD_HAVE_QCOM_FM),true)
+AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
+BOARD_HAS_QCA_FM_SOC := cherokee
+endif
 
 # GPS
 TARGET_NO_RPC := true
