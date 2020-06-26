@@ -1,2 +1,3 @@
 allow priv_app sysfs_kgsl:lnk_file { read };
 allow priv_app sysfs_kgsl:dir { search };
+allow priv_app sysfs_graphics:file { read };
