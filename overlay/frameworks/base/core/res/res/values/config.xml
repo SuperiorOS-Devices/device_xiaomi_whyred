@@ -1095,7 +1095,4 @@
          to have a confirmed way to dismiss the keyboard when desired. -->
     <bool name="config_automotiveHideNavBarForKeyboard">true</bool>
 
-    <!-- If true, the display will be shifted around in ambient mode. -->
-    <bool name="config_enableBurnInProtection">true</bool>
-
 </resources>
