@@ -26,3 +26,10 @@ sys.thermal.                        u:object_r:thermal_prop:s0
 # vendor_default_prop
 fpc_kpi                             u:object_r:vendor_default_prop:s0
 gpu.stats.debug.level               u:object_r:vendor_default_prop:s0
+
+# Power Hal
+vendor.powerhal.audio                   u:object_r:power_prop:s0
+vendor.powerhal.init                    u:object_r:power_prop:s0
+vendor.powerhal.rendering               u:object_r:power_prop:s0
+vendor.powerhal.state                   u:object_r:power_prop:s0
+
