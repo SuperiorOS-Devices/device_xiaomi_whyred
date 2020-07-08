@@ -4,7 +4,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true \
     vendor.video.disable.ubwc=1 \
     persist.vendor.qcomsysd.enabled=1 \
-    ro.vendor.extension_library=libqti-perfd-client.so \
     sys.vendor.shutdown.waittime=500 \
     ro.build.shutdown_timeout=0 \
     ro.frp.pst=/dev/block/bootdevice/by-name/frp \
