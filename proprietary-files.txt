@@ -1216,9 +1216,9 @@ vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
 # Irq Balance - from jasmine-user 10 QKQ1.190910.002 V11.0.4.0.QDIMIXM release-keys
 vendor/bin/msm_irqbalance|e917104fbd26c844d27ffb2b7ec4f665fdfb8b78
 
-# Perf - from Taimen QP1A.190711.020
-vendor/lib/libqti-perfd-client.so|16816cfdc873a2fdc9467db52bd5f2aaa33d2b50
-vendor/lib64/libqti-perfd-client.so|93c3f90f1b72a21ca325cbb375923b1deba80467
+# Perf - from Taimen QQ3A.200705.002
+vendor/lib/libqti-perfd-client.so|c1c7482b58fbe012f934b54bea78ff52068ea530
+vendor/lib64/libqti-perfd-client.so|d16c17427d6383368d035c9bf028630837b3b969
 
 # Peripheral manager - from LA.UM.8.2.r1-06300-sdm660.0
 vendor/bin/pm-proxy|3182c937d93cc02c6721c053f57fc6794ad7edb3
