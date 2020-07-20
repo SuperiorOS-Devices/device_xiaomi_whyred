@@ -1,1 +1,2 @@
+typeattribute vold system_executes_vendor_violators;
 allow vold vendor_file:file read;

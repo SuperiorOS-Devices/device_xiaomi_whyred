@@ -1,2 +1,1 @@
-allow cameraserver vendor_file:file { read } ;
 allow cameraserver sysfs_kgsl:lnk_file { read };
