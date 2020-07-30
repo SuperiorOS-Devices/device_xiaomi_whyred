@@ -77,6 +77,12 @@ vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
+# Audio Power Amplifier - from jasmine-user-10-QKQ1.190910.002-V11.0.11.0.QDIMIXM-release-keys
+vendor/firmware/dbmd4_va_fw.bin|ee640f9f4e367d513f5fb7d95c85e226c9f75750
+vendor/firmware/tas2557_uCDSP.bin|d16fc1db241670307f5071e256c886ecd18d30f7
+vendor/firmware/tfa98xx.cnt|f8b5291feaebe7e3d18fda5d8960c313656b4a3a
+vendor/firmware/voice_amodel.bin|f0485f84718886ebcba6f2be0eb92f18240b5115
+
 # Bluetooth - from jasmine-user-10-QKQ1.190910.002-V11.0.11.0.QDIMIXM-release-keys
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|57a0a575a2b1b96176fda1bcb84ea8371c4070d1
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
