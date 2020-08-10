@@ -1,0 +1,11 @@
+[
+  {
+    "repository"  : "vendor_xiaomi_whyred",
+    "target_path" : "vendor/xiaomi/whyred",
+  },  
+  {
+    "repository"  : "kernel_xiaomi_whyred",
+    "target_path" : "kernel/xiaomi/whyred",
+  }
+]
+     

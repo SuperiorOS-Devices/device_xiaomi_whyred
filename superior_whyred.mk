@@ -25,13 +25,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 # Inherit from whyred device
 $(call inherit-product, device/xiaomi/whyred/device.mk)
 
-# Inherit some common Xtended stuff.
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+# Inherit some common Superior stuff.
+$(call inherit-product, vendor/superior/config/common.mk)
 
-# Inherit from custom vendor
-#$(call inherit-product, vendor/xiaomi/MiuiCamera/config.mk)
-
-PRODUCT_NAME := xtended_whyred
+PRODUCT_NAME := superior_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
@@ -49,11 +46,6 @@ BUILD_FINGERPRINT := xiaomi/whyred/whyred:8.1.0/OPM1.171019.011/V9.5.11.0.OEIMIF
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=xiaomi/whyred/whyred:8.1.0/OPM1.171019.011/V9.5.11.0.OEIMIFA:user/release-keys
 
-# Maintainer
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.xtended.maintainer=Sreekanth
-
 TARGET_VENDOR := Xiaomi
 TARGET_BOOT_ANIMATION_RES := 1080
-XTENDED_BUILD_TYPE=OFFICIAL
-SKIP_ABI_CHECKS=true
+TARGET_LAUNCHER := lawnchair
