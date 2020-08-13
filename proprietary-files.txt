@@ -1327,25 +1327,18 @@ vendor/lib/libSubSystemShutdown.so|7714c39dd503f3121f87b877811fa8ac6e8b7247
 vendor/lib64/libsubsystem_control.so|b2e8c7eb9d999137ae99ea38f85d7dac59c6dcc2
 vendor/lib64/libSubSystemShutdown.so|c934b2df57be86fdfb9bdf2046f9289af5e7a62c
 
-# Thermal - from  jasmine-user-10-QKQ1.190910.002-V11.0.11.0.QDIMIXM-release-keys
-vendor/bin/hw/android.hardware.thermal@1.0-service|9f4aea97e96a8e5182633607630cddd4051c3d8a
-vendor/bin/thermal-engine|459c3fb5ab99ac95cff15387358c1d0e239a5735
-vendor/etc/init/android.hardware.thermal@1.0-service.rc|83a76be56b9b0843ff3f2c06186c63156a459acb
-vendor/etc/thermal-engine-map.conf|474264ed357e02b7bb8b757024275a4cb8ff2929
-vendor/etc/thermal-engine-normal.conf|c48af99c954c22a1e0b386813db08ae599a6ba0f
-vendor/etc/thermal-engine-video.conf|00960d517f33e34bfc9fb21c1a6f9120e4623e50
-vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
-vendor/lib/hw/android.hardware.thermal@1.0-impl.so|3d7fe8e1517af3f9cc2e17a9df77e8e5ad6c22e0
-vendor/lib/libthermalclient.so|c3aecc7610e8f5775a6f6af2ff7790bef74380a1
-vendor/lib/libthermalfeature.so|b2a90496eb99301cc0f065fe97782358858668a3
-vendor/lib64/hw/android.hardware.thermal@1.0-impl.so|05d7b6e4419ba068c0055221e0cec1937f0281d2
-vendor/lib64/libthermalclient.so|84072e150722cc668320f07a75cb8695ce1a79b0
-vendor/lib64/libthermalfeature.so|1c408911610e5b6a11853aff1900860f9e9a861f
-vendor/lib64/libthermalioctl.so|2f0ee866e9059b1df9ca7b63815591354e7c77d8
+# Thermal - configs
+vendor/etc/thermal-engine.conf
+vendor/etc/thermal-engine-map.conf
+vendor/etc/thermal-engine-normal.conf
 
-# Thermal-Hardware - from  jasmine-user-10-QKQ1.190910.002-V11.0.11.0.QDIMIXM-release-keys
-vendor/lib/hw/thermal.sdm660.so|8e2074c9314000ad0b3b377a5693d2949f3902ea
-vendor/lib64/hw/thermal.sdm660.so|fc04a4a60c1d047e8c3d483c77858c69d47d47c7
+# Thermal - from jasmine-user 10 QKQ1.190910.002 V11.0.4.0.QDIMIXM release-keys
+vendor/bin/thermal-engine|2660c01a488abef8f50ff6380996809102c8215f
+vendor/lib/libthermalfeature.so|1f1eb616ba26b309a2fda7de40c2163a4acaaa35
+vendor/lib64/libthermalfeature.so|829b2fc0aa8c863d4b4b331e0a2c00663e01efe6
+vendor/lib64/libthermalioctl.so|2f0ee866e9059b1df9ca7b63815591354e7c77d8
+-vendor/lib/libthermalclient.so|c3aecc7610e8f5775a6f6af2ff7790bef74380a1
+-vendor/lib64/libthermalclient.so|84072e150722cc668320f07a75cb8695ce1a79b0
 
 # Time services - from LA.UM.8.2.r1-06300-sdm660.0
 -vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um|c935b678fdaed033513f044f6492361c3370f9f0
