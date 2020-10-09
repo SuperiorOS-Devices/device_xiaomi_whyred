@@ -485,7 +485,8 @@ PRODUCT_PACKAGES += \
     libwpa_client \
     WifiOverlay \
     wpa_supplicant \
-    wpa_supplicant.conf
+    wpa_supplicant.conf \
+    android.hardware.tetheroffload.config@1.0
 
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \

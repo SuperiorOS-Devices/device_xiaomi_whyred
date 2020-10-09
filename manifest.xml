@@ -35,7 +35,7 @@
         <transport>hwbinder</transport>
         <fqname>@1.0::IGatekeeper/default</fqname>
     </hal>
-	 <hal format="hidl">
+    <hal format="hidl">
         <name>android.hardware.graphics.allocator</name>
         <transport>hwbinder</transport>
         <fqname>@2.0::IAllocator/default</fqname>
@@ -45,7 +45,7 @@
         <transport>hwbinder</transport>
         <fqname>@2.1::IComposer/default</fqname>
     </hal>
-	<hal format="hidl">
+    <hal format="hidl">
         <name>android.hardware.graphics.mapper</name>
         <transport arch="32+64">passthrough</transport>
         <fqname>@2.1::IMapper/default</fqname>
@@ -119,7 +119,7 @@
         <name>vendor.qti.ims.factory</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IImsFactory/default</fqname>
-   </hal>
+    </hal>
     <hal format="hidl">
         <name>com.qualcomm.qti.uceservice</name>
         <transport>hwbinder</transport>
@@ -322,5 +322,14 @@
         <name>android.hardware.keymaster</name>
         <transport>hwbinder</transport>
         <fqname>@3.0::IKeymasterDevice/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.tetheroffload.config</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IOffloadConfig</name>
+            <instance>default</instance>
+        </interface>
     </hal>
 </manifest>
