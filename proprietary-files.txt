@@ -798,7 +798,7 @@ product/framework/dpmapi.jar|4696df9793ad676b305d53b5d7ce65ecf74771ad
 product/lib64/com.qualcomm.qti.dpm.api@1.0.so|a70cfc1be3e06cde6318d6969e114429fe1950bb
 product/lib64/libdpmctmgr.so|9f37421956165d08a423d439fa7da805ba257d08
 product/lib64/libdpmfdmgr.so|a60e150a5a5ff4b9c4e2121c7692abd3a9dd947e
-product/lib64/libdpmframework.so|d38f4e170be3b02f071dc77b0230d94ebc0d661d
+system_ext/lib64/libdpmframework.so|2e8728c506402b5b546b7ab72440cacd019c433a
 product/lib64/libdpmtcm.so|e4616bf333bc93bda13ff211adcdb066422c900e
 vendor/bin/dpmQmiMgr|b48fd2049c3e8fe3e306265d2d507be975ccc352
 vendor/etc/init/dpmQmiMgr.rc|67569302d3a8828a9118c835e5b69c51b0c8ac68
@@ -844,7 +844,7 @@ vendor/lib/mediadrm/libwvdrmengine.so|7b0dbc4a1c0e7ababe8835d804a900fba3a82380
 vendor/lib64/libcpion.so|ff24ef248bb35fd3cc1081a63f33c2565dc6351f
 vendor/lib64/libhdcpsrm.so|ee8e7c29e2b716a8bb07c3cbb730e34d8af3c64e
 vendor/lib64/liboemcrypto.so|e44fa8bf9bed1541342390bf316c34fe9f29cc4e
-vendor/lib64/libwvhidl.so|b2aee3389db27e025b95a16d9c51e77eceae1fcf
+vendor/lib64/libwvhidl.so|2489dbf5cc572dea567f9f3d3af7b2d269373b46
 vendor/lib64/mediadrm/libwvdrmengine.so|fe15c5e86482cad673789cd6992742d6124b0779
 
 # DRM (TUI) - from LA.UM.8.2.r1-06300-sdm660.0
@@ -899,8 +899,6 @@ vendor/lib64/libqfp-service.so
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
-vendor/lib64/libprotobuf-cpp-lite.so
-vendor/lib/libprotobuf-cpp-lite.so
 
 # FM - from jasmine V11.0.11.0.QDIMIXM
 lib64/fm_helium.so|bc9f6314528630c060b593cef4a8cec786b22467
@@ -1221,12 +1219,12 @@ vendor/lib64/libqcmaputils.so|eacd5bec984bae24bda1f041975357b2d72edfc2
 vendor/lib64/libqcrilFramework.so|3ea985b5e2d77aa5629429e6a535c485236e5b01
 vendor/lib64/libqrtr.so|9addbb504885bb2a82e0b19e38077742bc48c10f
 vendor/lib64/libqsocket.so|dd4067d7a79565f11034277d4ef46698cd17c19b
-vendor/lib64/libril-qc-hal-qmi.so|3a9961bf5bb0ea67013f650aad8d3c2575723fff
+vendor/lib64/libril-qc-hal-qmi.so|fd8722a8704bc4d0787c751db0e225398fd64516
 vendor/lib64/libril-qc-ltedirectdisc.so|1bb5daeb65a48eb5dbac5db7f1fe8975fcb6be28
 vendor/lib64/libril-qc-radioconfig.so|c37def8f254404839a413918e94c4aab4d6de137
 vendor/lib64/libril-qcril-hook-oem.so|bc216efecb94b352b1d9be890bbcf5fc29e2f830
 vendor/lib64/librilqmiservices.so|716b1b545d8446c6e66e03291bf42fe60683ba1a
-vendor/lib64/libsettings.so|d23e7df68a3c5fc2c61bf232d3bab313a8576a56
+vendor/lib64/libsettings.so|1be7d1d33e562ff1b2db672d394100c0aa747b19
 vendor/lib64/libsystem_health_mon.so|a329ee0593f1811528a2d6fa9661160cbd1cc405
 vendor/lib64/qcrild_librilutils.so|314a90af94477d973109f0162a0a0d0d38ae1226
 vendor/lib64/qtibus.so|0d9c3b08a7350ee8db01abb625c032feaac4d2c1
@@ -1348,7 +1346,7 @@ vendor/lib64/libthermalioctl.so|2f0ee866e9059b1df9ca7b63815591354e7c77d8
 -vendor/lib64/libthermalclient.so|84072e150722cc668320f07a75cb8695ce1a79b0
 
 # Time services - from LA.UM.8.2.r1-06300-sdm660.0
--vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um|c935b678fdaed033513f044f6492361c3370f9f0
+-vendor/app/TimeService/TimeService.apk|c935b678fdaed033513f044f6492361c3370f9f0
 -vendor/lib/libtime_genoff.so|8fecae7eca45921b4562b416bac494188837fd43
 -vendor/lib64/libtime_genoff.so|216cbb72e22a0ca76d766dc0b84055c5b31e0a4c
 vendor/bin/time_daemon|a3efd58d57f23d0f8e7cfe8da0d7887b2f3e48e8
