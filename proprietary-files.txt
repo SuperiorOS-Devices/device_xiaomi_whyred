@@ -730,8 +730,8 @@ vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libmmcamera_tintless_algo.so
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 
-# Charger - from jasmine-user-10-QKQ1.190910.002-V11.0.11.0.QDIMIXM-release-keys
-vendor/bin/hvdcp_opti|120837d6d44abfd86515731dd26183be9cdd5596
+# Charger - from LA.UM.8.2.r1-06700-sdm660.0
+vendor/bin/hvdcp_opti|31fe37f97728d257fdb8d34ba7bec6b308879bd5
 
 # CNE - from jasmine-user-10-QKQ1.190910.002-V11.0.11.0.QDIMIXM-release-keys
 etc/cne/Nexus/ATT/ATT_profiles.xml|33e568627fd3f94dc45bca1c01ad10e6d8fb5b52
