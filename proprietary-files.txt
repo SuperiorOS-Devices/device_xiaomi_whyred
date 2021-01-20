@@ -1084,14 +1084,14 @@ vendor/lib64/hw/vulkan.adreno.so:vendor/lib64/hw/vulkan.sdm660.so|2cd751f202e3e4
 vendor/lib/hw/keystore.sdm660.so|990bc5ca05914f3df85320a31b26fae325e174e3
 vendor/lib64/hw/keystore.sdm660.so|ffd01591bd8a864cb2dbc6fd2c01fbd36ae54051
 
-# Listen - from jasmine-user-10-QKQ1.190910.002-V11.0.11.0.QDIMIXM-release-keys
-vendor/lib/hw/sound_trigger.primary.sdm660.so|8bae35ddf095f33543413bec940f538a7fada63b
-vendor/lib/libadpcmdec.so|6e9be864a1380e099a2d68237e13a724f3143314
-vendor/lib/libgcs-calwrapper.so|a7ee01ad02f69c182b9f28cb1c10b105ec8d607f
-vendor/lib/libgcs-ipc.so|d2a33d059bc02c6f635c350f0c3d524a0216557d
-vendor/lib/libgcs-osal.so|dfae7d1bb15b7bd19fef7427f0a6f6df28d5d30a
-vendor/lib/libgcs.so|91e2a7e52bbc076eb3761586bcaf623160612a79
-vendor/lib/libsmwrapper.so|d28c31e4dd25de2eb7d1face701b0f6acf1b1d0e
+# Listen - from LA.UM.8.2.r1-06700-sdm660.0
+vendor/lib/hw/sound_trigger.primary.sdm660.so|336e4af06f2ddd74bf318bae8ce21388c7f90ac6
+vendor/lib/libadpcmdec.so|8c72aa1812bfa749f266020366894c8a3873d99c
+vendor/lib/libgcs-calwrapper.so|cbf3dbe43161b68adfaf48a9da4e7fedd7b02f5a
+vendor/lib/libgcs-ipc.so|215c2dded9ccd0fc015db2d7008824e332886d2b
+vendor/lib/libgcs-osal.so|5f0c6798dbeb9c806706b0cf217440662452364c
+vendor/lib/libgcs.so|ccb6ac9c27021cf4f2ec09994742c38b700c2583
+vendor/lib/libsmwrapper.so|7f7bd7045ced84928ec46b457ec5f21d5228ea3a
 
 # Media - from jasmine-user-10-QKQ1.190910.002-V11.0.11.0.QDIMIXM-release-keys
 lib/libFileMux.so|79661e6dffc90234ad446641264fd0fa1a3fe6ab
