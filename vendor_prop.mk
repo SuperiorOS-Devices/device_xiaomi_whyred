@@ -198,3 +198,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.surface_flinger.supports_background_blur=1 \
     debug.sf.latch_unsignaled=1 \
     debug.sf.disable_backpressure=1
+
+# Charger
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.charger.disable_init_blank=true \
+    ro.charger.enable_suspend=true
