@@ -1,10 +1,34 @@
 [
   {
-    "repository": "android_hardware_xiaomi",
-    "target_path": "hardware/xiaomi"
+    "repository": "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch":"lineage-21",
+    "remote":"github"
   },
   {
-    "repository": "android_kernel_xiaomi_sdm660",
-    "target_path": "kernel/xiaomi/sdm660"
+    "repository": "kernel_xiaomi_whyred",
+    "target_path": "kernel/xiaomi/whyred"
+  },
+  {
+    "repository": "vendor_xiaomi_whyred",
+    "target_path": "vendor/xiaomi/whyred"
+  },
+  {
+     "repository":"SuperiorOS-beta/android_hardware_qcom_display",
+     "target_path":"hardware/qcom-caf/msm8998-whyred/display",
+     "branch":"fourteen-caf-msm8998",
+     "remote":"github"
+  },
+  {
+     "repository":"SuperiorOS-beta/android_hardware_qcom_audio",
+     "target_path":"hardware/qcom-caf/msm8998-whyred/audio",
+     "branch":"fourteen-caf-msm8998",
+     "remote":"github"
+  },
+  {
+     "repository":"SuperiorOS-beta/android_hardware_qcom_media",
+     "target_path":"hardware/qcom-caf/msm8998-whyred/media",
+     "branch":"fourteen-caf-msm8998",
+     "remote":"github"
   }
 ]
