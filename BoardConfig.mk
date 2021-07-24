@@ -14,11 +14,11 @@ TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
 
 # Display
-TARGET_SCREEN_DENSITY := 440
+TARGET_SCREEN_DENSITY := 420
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/xiaomi/whyred
-TARGET_KERNEL_CONFIG := whyred_defconfig
+TARGET_KERNEL_CONFIG := whyred-oldcam_defconfig
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
