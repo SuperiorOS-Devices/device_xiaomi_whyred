@@ -8,6 +8,19 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),whyred)
 
+LPFLASH := $(HOST_OUT_EXECUTABLES)/lpflash$(HOST_EXECUTABLE_SUFFIX)
+INSTALLED_SUPERIMAGE_DUMMY_TARGET := $(PRODUCT_OUT)/super_dummy.img
+
+$(INSTALLED_SUPERIMAGE_DUMMY_TARGET): $(PRODUCT_OUT)/super_empty.img $(LPFLASH)
+	$(call pretty,"Target dummy super image: $@")
+	$(hide) touch $@
+	$(hide) $(LPFLASH) $@ $(PRODUCT_OUT)/super_empty.img
+
+.PHONY: super_dummyimage
+super_dummyimage: $(INSTALLED_SUPERIMAGE_DUMMY_TARGET)
+
+INSTALLED_RADIOIMAGE_TARGET += $(INSTALLED_SUPERIMAGE_DUMMY_TARGET)
+
 include $(CLEAR_VARS)
 
 WCNSS_INI_SYMLINK := $(TARGET_OUT_VENDOR)/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini
