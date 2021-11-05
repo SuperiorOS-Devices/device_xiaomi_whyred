@@ -9,10 +9,12 @@
    },
    {
       "repository":"vendor_xiaomi_whyred",
-      "target_path":"vendor/xiaomi/whyred"
+      "target_path":"vendor/xiaomi"
    },
    {
-      "repository":"vendor_xiaomi_whyred-common",
-      "target_path":"vendor/xiaomi/sdm660-common"
+      "repository":"Darkstar085/vendor_xiaomi_MiuiCamera",
+      "target_path":"vendor/MiuiCamera",
+      "branch":"twelve",
+      "remote":"github"
    }
 ]
