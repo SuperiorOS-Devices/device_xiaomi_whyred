@@ -10,6 +10,10 @@
 /firmware                                       u:object_r:firmware_file:s0
 /bt_firmware                                    u:object_r:bt_firmware_file:s0
 
+# Block devices
+/dev/block/platform/soc/c0c4000.sdhci/by-name/vendor u:object_r:system_block_device:s0
+/dev/block/platform/soc/c0c4000.sdhci/by-name/cust   u:object_r:system_block_device:s0
+
 # Hexagon DSP-side executable needed for Halide operation
 # This is labeled as public_adsprpcd_file as it needs to be read by apps
 # (e.g. Google Camera App)
