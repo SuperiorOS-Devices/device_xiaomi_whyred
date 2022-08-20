@@ -118,6 +118,7 @@ $(foreach p, $(call to-upper, $(ALL_PARTITIONS)), \
     $(eval BOARD_$(p)IMAGE_FILE_SYSTEM_TYPE := ext4) \
     $(eval TARGET_COPY_OUT_$(p) := $(call to-lower, $(p))))
 BOARD_SUPER_PARTITION_BLOCK_DEVICES := system vendor cust
+BOARD_USES_METADATA_PARTITION := true
 BOARD_SUPER_PARTITION_METADATA_DEVICE := system
 BOARD_SUPER_PARTITION_SIZE := 6241124352
 BOARD_SUPER_PARTITION_GROUPS := qti_dynamic_partitions
