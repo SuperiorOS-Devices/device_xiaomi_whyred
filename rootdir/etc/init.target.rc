@@ -439,6 +439,9 @@ on charger
 #    socket vqtss stream 0660 system system
 #    user system
 #    group system
+on charger
+    chown system system /sys/class/leds/red/brightness
+    write /sys/class/leds/red/brightness 255
 
 service seempd /system/bin/seempd
     class late_start
