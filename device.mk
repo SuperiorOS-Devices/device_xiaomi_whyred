@@ -261,6 +261,9 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl.recovery
 endif
 
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.allocator@1.0.vendor \
