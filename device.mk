@@ -280,6 +280,8 @@ PRODUCT_PACKAGES += \
     init.class_main.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
+    init.qcom.sensors.sh \
+    init.qti.dcvs.sh \
     init.qcom.sh
 
 PRODUCT_PACKAGES += \
@@ -288,6 +290,7 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.recovery.qcom.rc \
     init.target.rc \
+    init.target_dap.rc \
     ueventd.qcom.rc \
     fstab.qcom \
     init.device.rc
