@@ -14,5 +14,9 @@
    {
       "repository":"vendor_xiaomi_whyred-common",
       "target_path":"vendor/xiaomi/sdm660-common"
+   },
+   {
+      "repository":"android_packages_resources_devicesettings",
+      "target_path":"packages/resources/devicesettings"
    }
 ]
