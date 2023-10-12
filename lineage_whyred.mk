@@ -22,6 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Updatable Apex
+OVERRIDE_PRODUCT_COMPRESSED_APEX := false
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
 # Inherit from whyred device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
