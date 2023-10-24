@@ -15,7 +15,6 @@ TARGET_NO_BOOTLOADER := true
 # Platform
 BOARD_VENDOR := xiaomi
 TARGET_BOARD_PLATFORM := sdm660
-OVERRIDE_QCOM_HARDWARE_VARIANT := whyred
 
 # Architecture
 TARGET_ARCH := arm64
