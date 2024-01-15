@@ -1,0 +1,2 @@
+#============= qti_init_shell ==============
+allow qti_init_shell qti_init_shell:capability dac_read_search;

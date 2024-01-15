@@ -1,0 +1,2 @@
+#============= port-bridge ==============
+allow port-bridge sysfs:file read;

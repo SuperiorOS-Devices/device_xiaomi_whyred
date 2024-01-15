@@ -1,0 +1,3 @@
+#============= system_server ==============
+allow system_server proc:file { getattr read };
+get_prop(system_server, wifi_hal_prop)

@@ -1,0 +1,7 @@
+#============= init ==============
+allow init qti_init_shell:capability dac_read_search;
+allow init proc:file { setattr write };
+allow init proc_dirty:file write;
+set_prop(init, config_prop)
+set_prop(init, default_prop)
+set_prop(init, vendor_cgroup_follow_prop)

@@ -1,0 +1,2 @@
+#============= wcnss_service ==============
+allow wcnss_service sysfs:file read;
