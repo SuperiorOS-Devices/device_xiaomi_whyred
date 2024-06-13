@@ -126,6 +126,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.5:64 \
     android.hardware.camera.provider@2.6:64 \
     libdng_sdk.vendor \
+    libpng.vendor:32 \
     vendor.qti.hardware.camera.device@1.0:64
 
 # Shims
@@ -228,13 +229,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GoogleCameraGo
 
-
-
-# Keymaster
-PRODUCT_PACKAGES += \
-    android.hardware.keymaster@3.0-impl \
-    android.hardware.keymaster@3.0-service
-
 # GNSS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.0.vendor \
@@ -273,6 +267,7 @@ PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.base@1.0.vendor \
     android.hidl.memory@1.0.vendor \
+    libhidlmemory.vendor:64 \
     libhidltransport \
     libhidltransport.vendor \
     libhwbinder \
@@ -286,6 +281,11 @@ PRODUCT_COPY_FILES += \
 # IFAA manager
 PRODUCT_PACKAGES += \
     IFAAService
+
+# IMS
+PRODUCT_PACKAGES += \
+    libgui_shim \
+    libion.vendor
 
 # Init
 PRODUCT_PACKAGES += \
@@ -327,6 +327,8 @@ PRODUCT_COPY_FILES += \
 
 # Keymaster
 PRODUCT_PACKAGES += \
+    android.hardware.keymaster@3.0-impl \
+    android.hardware.keymaster@3.0-service \
     android.hardware.keymaster@4.0.vendor
 
 # Lights
@@ -422,7 +424,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libavservices_minijail.vendor \
     libprotobuf-cpp-full \
+    libnetutils.vendor \
     librmnetctl \
+    libsqlite.vendor:64 \
     rild
 
 PRODUCT_PACKAGES += \
@@ -443,7 +447,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl:64 \
     android.hardware.sensors@1.0-service \
-    android.frameworks.sensorservice@1.0.vendor
+    android.frameworks.sensorservice@1.0 \
+    android.frameworks.sensorservice@1.0.vendor \
+    libpower.vendor
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
